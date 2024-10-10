@@ -1,0 +1,45 @@
+#content {
+max-width:1600px ;
+margin: 0 auto;
+}
+
+nav a {
+    text-align: center;
+}
+
+#hero-msg h4 {
+    text-align: center;
+}
+
+#hero-msg h1 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+.button-box{
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+header{
+    background-color: antiquewhite;
+}
+nav a:hover {
+   background-color: blueviolet;
+}
+
+/* left off on step 12. also change the colours to match the color team of the other website*\
