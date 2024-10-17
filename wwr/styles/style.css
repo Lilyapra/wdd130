@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Domine:wght@400..700&display=swap');
+
+
 #content {
 max-width:1600px ;
 margin: 0 auto;
@@ -30,36 +33,38 @@ main section {
     text-align: center;
 }
 
-#background {
-    height: 725px;
-}
-
 body{
     background-color: rgb(101, 158, 153);
+    font-family: Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header{
-    background-color: antiquewhite;
+    background-color: rgb(236, 230, 202);
 }
 nav a{
     background-color: rgb(231, 213, 163);
-    color:rgb(17, 53, 129)
+    color:rgb(17, 53, 129);
+    padding: 35px;
 }
 nav a:hover {
    background-color: rgb(57, 141, 167);
    color:rgb(0, 0, 0)
 }
 
-.book {
+.book, .join {
     background-color: rgb(8, 49, 63);
     color: rgb(238, 229, 229);
     text-decoration: none;
-}
-
-.join{
-    text-align: center;
-    color: #fcfbfb;
-    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 50px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover{
@@ -73,24 +78,33 @@ nav a:hover {
 
 #background {
     background-color: rgb(238, 216, 144);
+    height: 725px;
+    margin-bottom: 200px;
 }
 
 .msg{
     background-color: lightyellow;
+    line-height: 1.5em; 
+    padding: 35px;
 }
 
 footer{
     background-color: rgb(201, 132, 127);
     color: #000;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title {
-    background-color: rgb(216, 207, 87);
+    background-color: rgba(87, 197, 216, 0.349);
     color: black;
+    font-family:"Cormorant Garamond", serif ;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .join:hover{
-    background-color: aliceblue;
+    background-color: rgb(105, 153, 196);
     color: black;
 }
 
@@ -100,6 +114,8 @@ footer{
 
 .msg p{
     color: #000;
+    font-family: "Domine", sans-serif ;
+    padding-bottom: 15px;
 }
 
 footer a {
@@ -117,6 +133,7 @@ footer a:hover{
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{
@@ -131,5 +148,35 @@ footer p a:hover{
     text-decoration: underline;
 }
 
+#logo_link {
+    padding-left: 5px;
+}
 
-/* left off on step 12. also change the colours to match the color team of the other website*\
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
+
+.camping-card{
+    margin: 200px 0;
+}
+
+.rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid  rgb(238, 216, 144);
+}
+
+main section img{
+    box-sizing: border-box;
+}
+
+.mountains{
+    /* margin: 0 auto; */
+    margin-right: 20px;
+}
