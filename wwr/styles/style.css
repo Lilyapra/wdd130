@@ -116,6 +116,7 @@ footer{
 .msg p{
     color: #000;
     font-family: "Domine", sans-serif ;
+    font-size: .8em;
     padding-bottom: 15px;
 }
 
