@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+display: flex;
+width: 500px;
+height: 250px;
+border: 2px solid #ccc;
+}
+
+.left{
+    flex: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("w06_cherries.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.right{
+    flex: 1;
+    background-color: #d3d3d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.headlin{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    z-index: 5;
+    width: 50px;
+    text-align: justify;
+}
+
+.subhead {
+    font-size: 28px;
+    color: #8B0000;
+    font-weight: bold;
+}
+
+.cherry{
+    width: 0px; 
+    /* margin-top: -20px;
+    height: 100px; */ 
+}
