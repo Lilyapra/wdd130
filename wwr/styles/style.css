@@ -284,7 +284,7 @@ nav {
     }
     .rivers-card, .camping-card, .rapids-card {
         margin: 50px auto;
-        width: 60%;
+        width: 100%; /* 60% */
     }
     #background {
         display: none;
