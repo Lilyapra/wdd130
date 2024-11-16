@@ -1,0 +1,22 @@
+body {
+    display: grid;
+    background-color: black;
+}
+
+
+h3 {
+    color: rgb(56, 133, 196);
+    grid-column:2/3 ;
+    grid-row: 3/4 ;
+}
+
+.challenge{
+    text-align: center;
+    background-color: aliceblue;
+    width: 100%;
+    height: auto;
+}
+.img {
+   grid-column: 2/4;
+   grid-row: 2/3;
+}

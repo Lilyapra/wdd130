@@ -41,6 +41,13 @@ body{
     padding: 0;
 }
 
+.subbody{
+    background-color: rgb(27, 27, 27);
+    font-family: Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
 h2 {
     margin: 0;
 }
@@ -50,6 +57,13 @@ header{
     display: grid;
     grid-template-columns: 150px auto;
 }
+
+.subhead{
+    background-color: gold;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
 nav a{
     background-color: rgba(231, 213, 163, 0);
     color:rgb(17, 53, 129);
@@ -93,12 +107,23 @@ nav a:hover {
     padding: 35px;
     margin-top: 200px;
     grid-column: 6 / 10;
-    grid-row: 6 / 7;
+    grid-row: 5 / 6;
     box-shadow: 5px 5px 10px #6f7364;
 }
 
 footer{
     background-color: rgb(199, 184, 141);
+    /* background-color: #6f7364; */
+    color: #000;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subfoot{
+    background-color: gold;
     /* background-color: #6f7364; */
     color: #000;
     padding: 25px 50px;
@@ -244,7 +269,7 @@ nav {
 
 .home-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(10, 1fr); 
     gap: 100px; 
     padding: 40px 0;
     justify-items: center; 
