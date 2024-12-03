@@ -371,6 +371,38 @@ nav {
     margin-left: 0.5em;
   }
 
+
+/* Rivers.html */
+.title{
+    text-align: center;
+}
+.highlight {
+    background-color: rgb(222, 238, 77); 
+    font-weight: bold;
+    color: black; 
+    padding: 2px; 
+    text-align: center;
+}
+.rivers-grid { 
+    display: grid; 
+    grid-template-columns: 2fr 1fr; 
+    gap: 20px; 
+}
+
+.river-item { 
+    display: contents; 
+} 
+.river-item img { 
+    grid-column: 2;  
+    height: 100px;
+    max-width: 100%;
+    width: 100px;
+    } 
+.river-item div { 
+    grid-column: 1; 
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
