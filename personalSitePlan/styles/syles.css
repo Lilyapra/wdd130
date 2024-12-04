@@ -340,7 +340,7 @@ p{
 }
 
 .img-cont img {
-    max-width: 70%; 
+    max-width: 90%; 
     height: auto; 
     border-radius: 5px; 
 }
@@ -348,8 +348,8 @@ p{
 
 .img-cont {
     grid-column: 2; 
-    display: flex;
-    flex-direction: column; 
+    /* display: flex; */
+    /* flex-direction: column;  */
     gap: 5px;
 }
 
