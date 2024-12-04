@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Domine:wght@400..700&display=swap');
+
+body{
+    background-color: rgb(18, 20, 20);
+    font-family: Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.subbody{
+    background-color: rgb(27, 27, 27);
+    font-family: Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+header{
+    background-color: rgb(240, 198, 13);
+    display:grid;
+    grid-template-columns: 150px auto;
+    align-items: center;
+
+    
+}
+
+.subhead{
+    background-color: gold;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav a{
+    background-color: rgba(231, 213, 163, 0);
+    color:rgb(6, 6, 7);
+    padding: 35px;
+}
+nav a:hover {
+   background-color: rgb(0, 0, 0);
+   color:rgb(250, 234, 14)
+}
+
+
+
+.book:hover{
+    background-color: grey;
+    color: black;
+}
+.join:hover {
+     background-color: grey;
+     color: black;
+}
+
+#background {
+    background-color: rgb(238, 216, 144);
+    height: 725px;
+    margin-bottom: 200px;
+    grid-column: 1 / 11;
+    grid-row: 4 / 9;
+}
+
+.msg{
+    background-color: rgb(199, 184, 141);
+    line-height: 1.5em; 
+    padding: 35px;
+    margin-top: 200px;
+    grid-column: 6 / 10;
+    grid-row: 5 / 6;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+footer{
+    background-color: rgb(240, 206, 13);
+    /* background-color: #6f7364; */
+    color: #000000;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subfoot{
+    background-color: gold;
+    /* background-color: #6f7364; */
+    color: #000;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home-title {
+    background-color: rgba(87, 197, 216, 0.349);
+    color: black;
+    font-family:"Cormorant Garamond", serif ;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+
+.msg p{
+    color: #d8d1d1;
+    font-family: "Domine", sans-serif ;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color:#000
+}
+
+.logo{
+    width: 80px;
+}
+
+.icon{
+    width: 80px;
+    padding-top: 10px;
+}
+
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
+
+#logo_link {
+    padding-left: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* contactus.htlm */
+/* body {
+    /* Center the form on the page */
+    /* text-align: center;
+  } */ 
+  
+  form {
+    /* display: inline-block; */
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    text-align: center;
+    margin-top: 80px ;
+  }
+  
+  p + p {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    min-width: 90px;
+    text-align: right;
+  }
+  
+  #feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+/* .moveDown {
+    margin-top: 3em; */
+
+
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, text areas have a monospace font */
+    font: 1em sans-serif;
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Set the outline width and style */
+    outline-style: solid;
+    /* To give a little highlight on active elements */
+    outline-color: #f0e5e5;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  #fornbtn{
+    width:auto;
+    height: 50px;
+    font-size: 100%;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+.feedb{
+    text-align: center;
+    color: #f5de76;
+}
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+  }
+
+
+/* Homep page CSS */
+
+.home-header {
+    background: #f0f0f0;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.home-header h1 {
+    margin-bottom: 10px;
+}
+
+.home-main {
+    flex-grow: 1;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.home-main section {
+    grid-column: 1 / span 2;
+    padding: 20px;
+}
+
+.home-images img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* .home-footer {
+    background: rgb(228, 195, 10);
+    padding: 10px 20px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+}
+     */
+
+
+.home-footer .social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.home-footer img {
+    width: 24px;
+    height: 24px;
+}
+
+h2 {
+    color: #f0f0f0;
+    font-family:"Cormorant Garamond", serif ;
+    font-size: xx-large;
+    text-align: center;
+    margin: 0; 
+    padding: 0; 
+}
+
+p{
+    color: white;
+    font-family: "Domine", sans-serif ;
+
+}
+
+.navigate-btn {
+    background-color: yellowgreen; 
+    color: rgb(0, 0, 0); 
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    border-radius: 7px; 
+}
+
+.navigate-btn:hover {
+    background-color: #45a049; 
+}
+
+.B{
+    margin-top: 20px;
+}
+
+.img-cont img {
+    max-width: 70%; 
+    height: auto; 
+    border-radius: 5px; 
+}
+
+
+.img-cont {
+    grid-column: 2; 
+    display: flex;
+    flex-direction: column; 
+    gap: 5px;
+}
+
+
+.text-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    align-items: center; 
+}
+
+.text-content{
+    font-size: 1rem;
+    grid-column: 1;
+}
+.pcolor{
+    color: #000;
+}
+
+.space{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.text-content{
+    line-height: 1.8;
+    
+}
+
+@media (max-width: 768px) {
+    .home-main {
+        grid-template-columns: 1fr;
+    }
+
+    .home-footer {
+        grid-template-columns: 1fr;
+    }
+}

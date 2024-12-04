@@ -4,34 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="stylesheet" href="#"> 
+    <link rel="stylesheet" href="styles/syles.css"> 
 </head>
 <body>
+    <div id="content">
     <header>
-      <h1>Welcome to My website </h1>
-      <nav>
-       <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="page2.html">Learn More</a></li>
-                        <li><a href="page3.html">Contact Us</a></li>
-       </ul>
-      </nav>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src =" images/logo.png" alt="Dry Oar Logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="page2.html">Learn More</a>
+            <a href="page3.html">Contact Us</a>
+        </nav>
+        <link rel="stylesheet" href="styles/syles.css">
     </header>
-    <main>
-        <section>
-            <h2>The History Of The Internet</h2>
-            <p>The internet, as we know it today, is an essential part of daily life, connecting people, ideas, and information across the globe. However, it started as a small, experimental network in the late 1960s, created to solve a problem: how to enable computers to communicate with one another even if some connections failed. Born from research and defense needs during the Cold War, early experiments led to the creation of ARPANET, a project funded by the U.S. government to connect researchers and share information.
+    </div>
+    
+    </header>
+    <main class="home-main"> 
+
+        <section class="text-img">
+            <div class="text-content">
+            <h2>Discover The Evolution of Digital Age</h2>
+        <div class="B">
+            <button class="navigate-btn" onclick="location.href= 'page2.html'"> Click here to Learn More</button>
+        </div>
+            <p class="space">The internet, as we know it today, is an essential part of daily life, connecting people, ideas, and information across the globe. However, it started as a small, experimental network in the late 1960s, created to solve a problem: how to enable computers to communicate with one another even if some connections failed. Born from research and defense needs during the Cold War, early experiments led to the creation of ARPANET, a project funded by the U.S. government to connect researchers and share information.
               </p>
-            
+              <p class="space">
+                Over the next few decades, this small network grew, evolving into a worldwide system that would forever change how we interact, learn, and work. From the invention of packet-switching to the creation of the World Wide Web, the internet’s story is one of technological innovation and collaboration. This timeline explores the key milestones that turned a simple idea into one of humanity’s most transformative achievements.
+              </p>
+              <p class="space">Today, the internet is a vast, interconnected network that serves as the backbone of modern life. It enables instant communication, access to endless information, and a platform for innovation, entertainment, and commerce. With billions of devices connected worldwide, the internet has transformed industries, created new economies, and reshaped how people interact. From social media and streaming services to online education and remote work, the internet has revolutionized daily life, making information and opportunities more accessible than ever before. As it continues </p>
+          </div>
+              <div class="img-cont">
+             <img src="images/homepage1.avif" alt="Digital age">
+              </div>
+            </div>
+            <div class="img-cont">
+           <img src="images/homepage2.avif" alt="globe">
+            </div>
         </section>
-        <div>
-        <img src="images/homepage1.avif" alt="image for homepage">
-        <img src="images/homepage2.avif" alt="image for homepage">
+        <div class="home-images">
     </div>
 
     </main>
-    <footer>
-        <p>&copy; 2024 Personal Website</p>
+    <footer >
+        <a class="logo_link" href="index.html">
+            <img class="logo" src =" images/logo.png" alt="Dry Oar Logo">
+        </a>
+        <p class="pcolor">&copy; 2024 Personal Website</p>
         <a href="site-plan.html">Site Plan</a>
         <p><a href="contactus.html">Contact Us</a></p>
         <div class="social">
