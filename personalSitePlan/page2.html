@@ -3,34 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Internet| </title>
-    <link rel="stylesheet" href="#"> 
+    <title>Internet</title>
+    <link rel="stylesheet" href="styles/syles.css"> 
 </head>
 <body>
     <header>
-      <h1>Welcome to My website </h1>
-      <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-    
-        </ul>
-      </nav>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/logo.png" alt="Dry Oar Logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="page2.html">Learn More</a>
+            <a href="page3.html">Contact Us</a>
+        </nav>
     </header>
-    <main>
+    <main>            
         <section>
-            <h2>The Internet Back Then</h2>
-            <p>Over the next few decades, this small network grew, evolving into a worldwide system that would forever change how we interact, learn, and work. From the invention of packet-switching to the creation of the World Wide Web, the internet’s story is one of technological innovation and collaboration. This timeline explores the key milestones that turned a simple idea into one of humanity’s most transformative achievements.
-            </p>
+            <h2>The History of the Internet Timeline</h2>
+            <p>Over the next few decades, this small network grew, evolving into a worldwide system that would forever change how we interact, learn, and work. From the invention of packet-switching to the creation of the World Wide Web, the internet’s story is one of technological innovation and collaboration. This timeline explores the key milestones that turned a simple idea into one of humanity’s most transformative achievements.</p>
+            <h3> click on each bar to learn more</h3>
+            <!-- Dropdown for The Early Foundations of Networking (1950s-1960s) -->
+            <div class="dropdown-container">
+                <button class="dropdown-button">The Early Foundations of Networking (1950s-1960s)</button>
+                <div class="dropdown-content">
+                    <div>
+                        <p>• 1957 - Sputnik and ARPA: The Soviet Union’s launch of Sputnik prompts the U.S. to form the Advanced Research Projects Agency (ARPA) to fund technology research.</p>
+                        <p>• 1961 - Packet Switching Concept: MIT researcher Leonard Kleinrock introduces the idea of packet-switching, the basis for data transfer on networks.</p>
+                        <p>• 1966 - ARPANET Development Begins: ARPA, with various research universities, initiates a plan to develop ARPANET, a network for military communication.</p>
+                    </div>
+                    <div class="timeline-image">
+                        <img src="images/page2a.avif" alt="image for page">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dropdown for Birth of the ARPANET (1969) -->
+            <div class="dropdown-container">
+                <button class="dropdown-button">Birth of the ARPANET (1969)</button>
+                <div class="dropdown-content">
+                    <div>
+                        <p>• 1969 - First ARPANET Message: On October 29, UCLA and Stanford Research Institute transmit the first "login" message over ARPANET, but the system crashes after “LO.”</p>
+                        <p>• 1969-1970 - ARPANET Expansion: Four initial nodes (UCLA, SRI, UCSB, and University of Utah) establish communication, showing the network's potential.</p>
+                    </div>
+                    <div class="timeline-image">
+                        <img src="images/page2b.jpg" alt="image for page">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dropdown for The 1970s – Foundations for Global Networking -->
+            <div class="dropdown-container">
+                <button class="dropdown-button">The 1970s – Foundations for Global Networking</button>
+                <div class="dropdown-content">
+                    <div>
+                        <p>• 1971 - Email is Invented: Ray Tomlinson, a researcher, invents email, using the "@" symbol for the first time in network addresses.</p>
+                        <p>• 1973 - First International Connection: ARPANET expands overseas, linking to a node in Norway and marking the start of international networking.</p>
+                        <p>• 1974 - Transmission Control Protocol (TCP): Vint Cerf and Bob Kahn develop TCP, allowing reliable data transmission, laying the groundwork for modern internet protocols.</p>
+                        <p>• 1976 - Ethernet is Born: Robert Metcalfe invents Ethernet, creating a local network solution that becomes the backbone of LAN technology.</p>
+                    </div>
+                    <div class="timeline-image">
+                        <img src="images/page3a.avif" alt="image for page">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dropdown for The 1980s – The Internet Protocol Suite (TCP/IP) and Expanding Networks -->
+            <div class="dropdown-container">
+                <button class="dropdown-button">The 1980s – The Internet Protocol Suite (TCP/IP) and Expanding Networks</button>
+                <div class="dropdown-content">
+                    <div>
+                        <p>• 1983 - TCP/IP Standardized: ARPANET switches to TCP/IP, becoming the standard protocol suite, officially connecting separate networks into a cohesive “internet.”</p>
+                        <p>• 1984 - Domain Name System (DNS): DNS is created, organizing the internet into domains, making web addresses easier to remember.</p>
+                        <p>• 1989 - Proposal for the World Wide Web: British scientist Tim Berners-Lee proposes the concept of a "web" that uses hypertext to connect documents.</p>
+                    </div>
+                    <div class="timeline-image">
+                        <img src="images/page3b.avif" alt="image for page">
+                    </div>
+                </div>
+            </div>
+
         </section>
-        <div>
-            <img src="images/page2a.avif" alt="image for page">
-        <img src="images/page2b.jpg" alt="image for page">
-        </div>
     </main>
+
     <footer>
-        <p>&copy; 2024 My Website</p>
-        <a href="site-plan.html">Site Plan</a> 
+        <a class="logo_link" href="index.html">
+            <img class="logo" src="images/logo.png" alt="Dry Oar Logo">
+        </a>
+        <p class="pcolor">&copy; 2024 My Website</p>
         <p><a href="contactus.html">Contact Us</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+               <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
     </footer>
+
+    <script>
+        // JavaScript for dropdown functionality
+        const dropdownButtons = document.querySelectorAll('.dropdown-button');
+    
+        dropdownButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                content.classList.toggle('show');
+    
+                // Close other open dropdowns
+                dropdownButtons.forEach(otherButton => {
+                    if (otherButton !== button) {
+                        otherButton.nextElementSibling.classList.remove('show');
+                    }
+                });
+            });
+        });
+    
+        // Close dropdown if clicking outside
+        window.addEventListener('click', (event) => {
+            if (!event.target.matches('.dropdown-button')) {
+                document.querySelectorAll('.dropdown-content').forEach(content => {
+                    content.classList.remove('show');
+                });
+            }
+        });
+    </script>
+
 </body>
 </html>
