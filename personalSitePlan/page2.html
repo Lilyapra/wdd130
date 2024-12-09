@@ -22,7 +22,7 @@
             <h2>The History of the Internet Timeline</h2>
             <p>Over the next few decades, this small network grew, evolving into a worldwide system that would forever change how we interact, learn, and work. From the invention of packet-switching to the creation of the World Wide Web, the internet’s story is one of technological innovation and collaboration. This timeline explores the key milestones that turned a simple idea into one of humanity’s most transformative achievements.</p>
             <h3> click on each bar to learn more</h3>
-            <!-- Dropdown for The Early Foundations of Networking (1950s-1960s) -->
+            
             <div class="dropdown-container">
                 <button class="dropdown-button">The Early Foundations of Networking (1950s-1960s)</button>
                 <div class="dropdown-content">
@@ -37,7 +37,7 @@
                 </div>
             </div>
 
-            <!-- Dropdown for Birth of the ARPANET (1969) -->
+         
             <div class="dropdown-container">
                 <button class="dropdown-button">Birth of the ARPANET (1969)</button>
                 <div class="dropdown-content">
@@ -51,7 +51,7 @@
                 </div>
             </div>
 
-            <!-- Dropdown for The 1970s – Foundations for Global Networking -->
+            
             <div class="dropdown-container">
                 <button class="dropdown-button">The 1970s – Foundations for Global Networking</button>
                 <div class="dropdown-content">
@@ -67,7 +67,7 @@
                 </div>
             </div>
 
-            <!-- Dropdown for The 1980s – The Internet Protocol Suite (TCP/IP) and Expanding Networks -->
+           
             <div class="dropdown-container">
                 <button class="dropdown-button">The 1980s – The Internet Protocol Suite (TCP/IP) and Expanding Networks</button>
                 <div class="dropdown-content">
@@ -105,7 +105,6 @@
     </footer>
 
     <script>
-        // JavaScript for dropdown functionality
         const dropdownButtons = document.querySelectorAll('.dropdown-button');
     
         dropdownButtons.forEach(button => {
@@ -113,7 +112,6 @@
                 const content = button.nextElementSibling;
                 content.classList.toggle('show');
     
-                // Close other open dropdowns
                 dropdownButtons.forEach(otherButton => {
                     if (otherButton !== button) {
                         otherButton.nextElementSibling.classList.remove('show');
@@ -122,7 +120,6 @@
             });
         });
     
-        // Close dropdown if clicking outside
         window.addEventListener('click', (event) => {
             if (!event.target.matches('.dropdown-button')) {
                 document.querySelectorAll('.dropdown-content').forEach(content => {
